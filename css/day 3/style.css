@@ -1,0 +1,152 @@
+ /* .box {
+   display: flex;
+   justify-content: center;
+ } */
+
+ .a {
+   background-color: rgb(218, 221, 215);
+   height: 400px;
+   width: 350px;
+   align-items: center;
+   display: flex;
+ }
+
+ .b {
+   background-color: aquamarine;
+   height: 300px;
+   width: 300px;
+   margin: 25px;
+   align-items: center;
+   display: flex;
+
+ }
+
+ .c {
+   height: 270px;
+   width: 300px;
+   margin: 20px;
+ }
+
+ .first {
+   background-color: rgb(206, 203, 199);
+   height: 500px;
+   width: 300px;
+   display: flex;
+
+   flex-direction: column;
+   border: 3px solid blue;
+ 
+ }
+
+ .ab {
+   margin-bottom: 20 px;
+   font-size: 40px;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+ }
+
+ .second {
+   background-color: rgb(247, 248, 248);
+   height: 220px;
+   width: 260px;
+   border-radius: 20px;
+   margin: 15px;
+
+
+ }
+
+ .profile-img {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+ }
+
+ .bb {
+   height: 90px;
+   width: 90px;
+   border-radius: 50%;
+   border: 3px solid green;
+   align-items: center;
+
+ }
+
+ .ff {
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .fff {
+   display: flex;
+   justify-content: center;
+
+ }
+
+ .box {
+   height: 550px;
+   width: 500px;
+   background-color: rgb(219, 217, 215);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-left: 500px;
+  
+ }
+
+ .box2 {
+   height: 400px;
+   width: 400px;
+   background-color: aliceblue;
+   margin-bottom: 40px;
+   border-radius: 10px;
+  
+    
+ }
+
+ .p {
+   margin: 10px;
+ }
+
+ .name {
+   font-size: 30px;
+   color: #3787e2;
+ }
+
+ .profile {
+   height: 120px;
+   width: 120px;
+   border-radius: 10px;
+   margin: 10px;
+ }
+
+ .box3 {
+  width: 400px;
+   display: flex;
+   justify-content: space-between;
+ }
+ .box5{
+ justify-content: center;
+ }
+ .box4{
+ height: 50px;
+ width: 330px;
+ background-color: rgb(10, 125, 233);
+ justify-content: space-around ;
+ display: flex;
+  font-size: 20px;
+color: aliceblue;
+margin-top: 50px;
+margin-left: 35px;
+text-align: center;
+font-size: 30px;
+
+
+ }
+.pp{
+margin-left:  px;
+text-align: center;
+font-size: 20px;
+margin-top: 30px;
+}
