@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    height: 700px;
+    width: 900px;
+    border: 2px solid black;
+    background-color: rgb(212, 212, 212);
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    /* height: 500px;
+    width: 700px                                                                                                                                                                                                                              0%;
+    border: 2px solid black; */
+
+
+}
+h1{
+    display: flex;
+   margin-left: 100px;
+}
+.box{
+  display: flex;  
+   border: 1px solid black;
+ height: 35px;   
+ width: 700px;
+ font-weight: 600;
+ font-size: 15px;
+ text-transform: capitalize;
+ 
+    
+   
+}
+.a1{
+    /* margin-right: 10%; */
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+       align-items: center;
+}
+.a2{ 
+    display: flex;
+    justify-content: center;
+    height: 35px;
+       align-items: center;
+    width: 150px;
+    border: 1px solid black;
+}
+.a3{ 
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 250px;
+       align-items: center;
+    border: 1px solid black;
+}
+.a4{ 
+    display: flex;
+    justify-content: center;
+    height: 35px;
+       align-items: center;
+    width: 110px;
+    border: 1px solid black;
+}
+.a5{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 250px;
+    border: 1px solid black;
+}
+.box2{
+  display: flex;  
+   border: 1px solid black;
+ height: 35px;   
+ width: 700px;
+ font-size: 14px;
+ 
+    
+   
+}
+.b1{
+    /* margin-right: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+
+    /* background-color: rgb(95, 94, 94); */
+}
+.b2{ 
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+}
+.b3{ 
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    height: 35px;
+    width: 250px;
+    border: 1px solid black;
+}
+.b4{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 110px;
+    border: 1px solid black;
+}
+.b5{ 
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    height: 35px;
+    width: 250px;
+    border:1px solid black;
+}
