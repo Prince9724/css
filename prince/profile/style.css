@@ -1,0 +1,85 @@
+.box{
+     height: 1500px;
+    width: 100%;
+     background-color: black;
+     justify-content: space-between;
+}
+.main{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.aa{
+    height: 150px;
+    width: 100px;
+    margin-left: 150PX;
+}
+.box1{
+    display: flex;
+    justify-content:space-between ;
+}
+.logo{
+     margin-right:  PX;
+      display: flex;
+      justify-content:  space-evenly;
+     align-items: center;
+    width: 500px;
+    height: 25px;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+ 
+.buttom{
+    margin-right: 19%;
+    background-color: aquamarine;
+    height: 20px;
+    width: 120px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+}
+.box2{
+ display: flex;
+ justify-content:space-between;
+    align-items: center;
+    margin-top: 100px;
+    
+     
+}
+.profile{
+    height: 400px;
+    width: 300px;
+}
+.box3{
+    height:400px;
+    width: 350px;
+    margin-left: 10%;
+}
+.box4{
+   margin-right: 40%; 
+}
+.a{
+    color: rgb(39, 241, 174);
+    font-size: 25px;
+}
+.b{
+    font-size: 50px;
+    color: aliceblue;
+}
+.c{
+  color: rgb(39, 241, 174);
+    font-size: 50px;  
+}
+.d{
+    font-size: 20px;
+    color: aliceblue;
+}
+.e{
+     border: 3px solid green;
+     padding: 5px;
+     color: aliceblue;
+}
