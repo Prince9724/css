@@ -1,0 +1,211 @@
+body{
+ height: 100vh;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ 
+}
+.main-section{
+   height: 100vh;
+   width: 100%;
+   background-color: black;
+   box-sizing: border-box;
+   position: relative;
+}
+.main{
+    height:675px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+ 
+  
+ 
+ .nav-baar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(4, 2, 19);
+    color: white;
+     display: flex;
+     justify-content: center;
+    
+}
+.nav{
+   height:40px;
+    width: 90%;
+    display:flex;
+    background-color: rgb(46, 46, 46);
+    justify-content: space-between;
+    padding-left: 40px;
+   align-items: center;
+   position: fixed;
+   z-index: 1000;
+   backdrop-filter: blur(10px);
+    
+
+}
+ .option-left, .option-right{
+    display:flex;
+    gap: 30px;
+ }
+ 
+ .left, .right{
+    height: 20px;
+    width: 100px;
+ 
+    text-align: center;
+ }
+ .left:hover{
+   background-color:white;
+   color:black;
+   border-radius:8px;
+ }
+  .right:hover{
+   background-color:white;
+   color:black;
+   border-radius:8px;
+ }
+ .button{
+      position: relative;
+      transition: visibility 0.5s;
+      display: flex;
+ }
+ .button:hover .languages{
+   visibility: visible;
+   cursor:pointer;
+ }
+ 
+.languages{
+ 
+  top: 20px;
+ height: 300px;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(4,100px);
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  gap: 20px;
+  justify-content: end;
+  position: absolute;
+  right: 0;
+  border-radius:10px;
+visibility: hidden;
+ 
+ 
+}
+ 
+    
+ 
+.box-1{
+ height: 500px;
+margin-left: 95pX;
+ color: white;
+ width: 100px;
+ background-repeat: no-repeat;
+}
+
+ .info{
+ position:absolute;
+ top:20px;
+ left:100px;
+ font-size: 18px;
+ width: 550px;
+ 
+ }
+ .info h1{
+    font-size: 50px;
+ }
+ .info:hover{
+     transform:rotate(1.5);
+ }
+ .sing{
+    text-decoration: none;
+    border-radius:5px;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+ }
+ .sing-1{
+    text-decoration: none;
+    border-radius:5px;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+
+ }
+ .main-2{
+     height:695px;
+    width: 100%;
+    background-color: rgb(4, 3, 17);  
+    margin-top:170px;
+    color: white;
+    
+ }
+ 
+.box-p{
+   display:flex;
+   
+}    
+ 
+ .info-2{
+ margin-top: 100px;
+ margin-left:100px;
+ font-size: 18px;
+ width: 50%;
+ }
+ .imgs{
+    width: 50%;
+    height: 695px;
+    
+    margin-top: 90px;
+ }
+ .img1{
+    height: 200px;
+    width: 100%;
+    gap: 6px;
+    margin-right: 20px ;
+    display: flex;
+ }
+ .img2{
+   height: 200px;
+    gap: 6px;
+   width: 100%;  
+    display: flex;
+ }
+  .img3{
+   height: 200px;
+    gap: 6px;
+   width: 100%;  
+    display: flex;
+ }
+ .aa1{
+    height: 195px;
+    width: 32%;
+    border-radius:10px;    
+ }
+ .aa1:hover{
+   transform:scale(1.01);
+   box-shadow:0 3px 3px 3px rgb(139, 137, 137);
+   transition:transform(0.3s);
+ }
+ .main-3{
+   height: 200px;
+   width: 100%;
+   background-color:rgb(59, 59, 59);  
+   text-align:center;
+    align-content:center;
+
+}
+.anker{
+   text-decoration:none;
+   color: rgb(114, 168, 238);
+}
+.main-3 h3{
+   font-size: 15px;
+   color: rgb(55, 111, 128);
+}
+ .prime-logo{
+   height: 50px;
+ }
+
