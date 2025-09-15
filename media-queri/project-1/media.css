@@ -1,0 +1,37 @@
+ @media(max-width:1200px){
+  .box2-a{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+  }
+  
+  .box3-a{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
+ }
+ @media(max-width:1000px){
+  .box-4{
+    display: flex;
+    flex-direction: column;
+  }
+ }
+@media(max-width:600px) {
+.box-1{
+align-items: center;
+}
+.box-buttom{
+
+}
+.marquee{
+  display: none;
+}
+}
+@media(max-width:400px){
+.box-buttom{
+display: flex;
+flex-direction: column;
+}
+.box-1{
+  height: 60px;
+}
+}
