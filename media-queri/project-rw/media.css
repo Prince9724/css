@@ -1,0 +1,116 @@
+@media(max-width:303px){
+    .x{
+        display: block;
+         text-align: center;
+        height: 1000px;
+        width: 100%;
+    }
+    .main-section{
+        display: none;
+    }
+}
+@media(max-width:1200px){
+    .nav-child{
+    width:  1000px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color:blanchedalmond ; */
+    align-items: center;
+  }
+  .box-icon-child{
+    width:  1000px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    
+  }
+}
+@media(max-width:1000px){
+     .icon-svg{
+        height:  25px;
+     }
+     .marquee{
+        display: none;
+     }
+     .box-1-child{
+        
+        display: flex;
+        justify-content: end;
+     }
+     .box-buttom{
+        margin-right: 50px;
+     }
+     .icon-p1{
+        font-size: 20px;
+     }
+     .icon-p2{
+        font-size: 15px;
+     }
+     .box-icon-child{
+        
+        width: 780px;
+         display: flex;
+         justify-content: center;
+        gap: 0px; 
+    }
+    .icon-items{
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:800px){
+    .nav-menu{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+
+}
+@media(max-width:780px){
+     .icons-1, 
+    .icons-2{
+        display: none;
+    }
+    .icons-11, 
+.icons-22{
+    display: block;
+}
+  .box-icon-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    
+  }
+  .icon-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+  }
+    .box-icon-child2{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: -100px;
+        
+    }
+    .nav-items{
+        display: none;
+    }
+}
+@media(max-width:415px){
+    .box-buttom{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-1 {
+        height: 60px;
+    }
+}
