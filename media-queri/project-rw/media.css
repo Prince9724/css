@@ -1,16 +1,16 @@
-/* 
-
+@media(max-width:310px){
     .x{
         display: block;
-         text-align: center;
         height: 1000px;
-        width: 100%;
+        text-align: center;
+        align-content: center;
     }
     .main-section{
         display: none;
     }
-} */
+}
 @media(max-width:1220px){
+    
     .nav-child{
     width:  1000px;
     padding: 10px;
@@ -26,20 +26,60 @@
     gap: 0px;
     
   }
-  .child-a2{
-     
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .child-b2{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
+ 
   .a2-p1{
         width:100%;
     }
+    .box-2a{
+        width: 100%;
+    }
+    .a2{
+        /* height:   px; */
+        width:20%;
+
+    }
+     .child-box-4{
+        display: flex;
+        flex-direction: column;
+     }
+}
+@media(max-width:1149px){
+    .main-section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* gap: 200px; */
+    }
+    .box-3{
+        height: 100%;
+    }
+    .child-box-3{
+        height:  100%;
+    }
+    .box-5a{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-5a{
+        width: 800px;
+    }
+    .box5-b{
+        width:100%;
+    }
+    .box5-a{
+        width:400px;
+    }
+    .a5-img-2{
+        width: 100%;
+        height: 75%;
+    }
 }
 @media(max-width:1000px){
+    /* .main-section{
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    } */
      .icon-svg{
         height:  25px;
      }
@@ -119,7 +159,7 @@
         display: none;
     }
       
-    .child-a2{
+    /* .child-a2{
      
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -127,7 +167,34 @@
     .child-b2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
+}
+@media(max-width:620px){
+    .box-2a{
+        width:100%;
+    }
+    .a2{
+        width: 32%;
+    }
+    .box-5a{
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box-5a{
+        width:100%;
+    }
+    .box5-b{
+        width:100%;
+    }
+    .box5-a{
+        width: 100%;
+    }
+    .a5-img-2{
+        width: 100%;
+        height: 75%;
+    }
 }
 @media(max-width:415px){
     .box-buttom{
@@ -147,5 +214,19 @@
     .a2-p1{
         font-size: 18px;
         width: 90px;
+    }
+    .p5-1{
+        width: 95%;
+        margin: 20px;
+    }
+    .p5-2{
+        margin: 30px;
+        width: 80%;
+    }
+     .box5-b{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
 }
