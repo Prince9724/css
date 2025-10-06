@@ -1,0 +1,12 @@
+@media(max-width:576px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .child-row3{
+        width: 100%;
+    }
+    .child-row2{
+        width: 80%;
+    }
+}
