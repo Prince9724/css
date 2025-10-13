@@ -1,0 +1,46 @@
+ 
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+    height: 100%;
+    width: 100%;
+  
+ }
+ .text4-p{
+   color: grey;
+   font-weight: 500;
+ }
+ .forth {
+  padding: 30px;
+ }
+ .fouth-section{
+   
+   background-color: #FCF9EA;
+ }
+ .fifth{
+   position: relative;
+ }
+ .fifth-1{
+  width:  25%;
+  position: absolute;
+ }
+ .fifth-img{
+  position: absolute;
+
+
+ }
+ 
+ 
+ .first-col{
+  
+  right: 0;
+  margin-top: -100px;
+ }
+ .fifth-img2{
+  padding-left: 40%;
+ }
+  
+  
+  

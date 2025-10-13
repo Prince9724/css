@@ -1,0 +1,28 @@
+@media(max-width:768px){
+    .forth-child{
+        display: flex;
+        flex-direction: column;
+    }
+    .text4-p{
+        text-align: center;
+    }
+    .first-a{
+        margin-top: 100px;
+    }
+     
+}
+@media(max-width:400px){
+    .forth{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .forth-child{
+      flex-direction: row;  
+       
+    }
+    .col-child1{
+        display: flex;
+        flex-direction: column;
+    }
+}
