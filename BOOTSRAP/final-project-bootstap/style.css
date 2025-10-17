@@ -6,7 +6,7 @@
  body{
     height: 100%;
     width: 100%;
-  
+    background-color: #fdf9f9;
  }
  .text4-p{
    color: grey;
@@ -19,28 +19,33 @@
    
    background-color: #FCF9EA;
  }
- .fifth{
-   position: relative;
- }
- .fifth-1{
-  width:  25%;
-  position: absolute;
- }
- .fifth-img{
-  position: absolute;
-
-
- }
- 
- 
- .first-col{
-  
-  right: 0;
+ .first-a{
   margin-top: -100px;
  }
- .fifth-img2{
-  padding-left: 40%;
+ .fifthe{
+   background-image: url(assets/section-5/background-img.png);
+   position: relative;
  }
-  
-  
-  
+.fifth-row{
+display: flex;
+}
+.s-6{
+  margin-right: 28%;
+}
+ .btn-1{
+  background-color: rgb(106, 61, 42);
+  border: none;
+ }
+ .text-1{
+  color: rgb(106, 61, 42) ;
+ }
+ .btn-2{
+  font-weight: 500;
+  border: 1px solid black;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
