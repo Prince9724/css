@@ -195,7 +195,6 @@ body {
     border-radius: 30px;
     border: 1px solid #003459 ;
 }
-
 .explore-btn {
     background: none;
     padding: 10px;
@@ -211,6 +210,7 @@ body {
 .fourth-section{
     /* height: 300px; */
     width: 90%;
+    padding-bottom: 40px;
 }
 .fourth-1{
     display: flex;
@@ -255,7 +255,88 @@ border-radius: 15px;
 .thik{
 font-weight: 500;
 }
+/* ======================== */
+/* fifth-section  */
+.fifth-section
+{
+    margin-top: 30px;
+    width: 80%;
+}.fifth1{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.fifth2logos{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 .textblue {
     color: #003459;
 }
+/* ========================= */
+    /* sixth-secton */
+.sixth-section{
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 80%;
+    background-image: url("./assets/section-6/Banner\ \(2\).png");
+}
+.sixth{
+    padding-top:5% ;
+    padding-left:10% ;
+}
+.click2six{
+    background: none;
+    padding: 10px;
+     width: 20%;
+    border-radius: 30px;
+    border: 2px solid #003459 ;
+    color: #003459;
+}
+.click1six{
+    background: none;
+    padding: 10px;
+    width: 20%;
+    border-radius: 30px;
+    border: none;
+    background-color: #003459;
+    color: white;
+}
+.padding{
+   
+    padding: 10px;
+}
+.buttons-fifth{
+    padding-top: 2%;
+    width: 100%;
+}
+.adop{
+    font-size:48px;
+}
 
+/* ========================= */
+
+/* seventh-section */
+.seventh-section{
+    width: 80%;
+}
+.pets-7{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+}
+.p7{
+    margin-top: 5%;
+}
+.pet7{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0px 20px 50px rgb(216, 215, 215);
+    margin-top: 3%;
+}
+.h4-7{
+    padding-top: 10px;
+}
