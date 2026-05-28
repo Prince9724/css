@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.first-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./assets/Herro\ Banner.png");
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.handle-nav {
+    width: 90%;
+    display: flex;
+
+    height: 50px;
+    align-items: center;
+    /* background-color: a  ntiquewhite; */
+}
+
+.nav1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.monito {
+    width: 30%;
+
+}
+
+.nav1-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.pet-text {
+    font-size: 13px;
+}
+
+.nav2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav2-search {
+    display: flex;
+    width: 30%;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: white;
+}
+
+.nav2-input {
+    width: 100%;
+    border: none;
+    background: none;
+}
+
+.join-btn {
+    background-color: #003459;
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    width: 30%;
+}
+
+.option {
+    border: none;
+    background: none;
+}
+
+
+/* ============================== */
+/* second-section */
+.second-section {
+    width: 90%;
+    margin-top: 50px;
+
+    /* background-color: beige; */
+}
+
+.second-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.second1 {
+    margin-top: 1%;
+    /* margin-bottom: 50px; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.veiw-btn {
+    width: 12%;
+    border: 2px solid #003459;
+    border-radius: 15px;
+    background: none;
+}
+
+.pets-box {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pets {
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 50px rgb(216, 215, 215);
+}
+
+.pet-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+/* ========================== */
+/* Third-section */
+
+ 
+ .third-section-new{
+    height: 400px;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./assets//section-3/banner.png");
+    border-radius: 40px 40px 0px 40px;
+}
+
+ 
+
+ .rect-text{
+    align-content: end;
+    text-align: end;
+    width: 40%;
+    padding-right: 5%   ;
+ }
+.one {
+    margin-top: 10px;
+    font-weight: 600;
+}
+.two{
+    padding: 10px;
+}
+.viewExplore-btn{
+     
+   padding-top: 3%;
+}
+.veiwintro-btn {
+    background: none;
+    padding: 10px;
+    width: 25%;
+    border-radius: 30px;
+    border: 1px solid #003459 ;
+}
+
+.explore-btn {
+    background: none;
+    padding: 10px;
+    width: 25%;
+    border-radius: 30px;
+    border: none;
+    background-color: #003459;
+    color: white;
+}
+
+/* =========================== */
+/* .fourth-section */
+.fourth-section{
+    /* height: 300px; */
+    width: 90%;
+}
+.fourth-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.view-btn-fouth{
+     background: none;
+    padding: 10px;
+    /* width: 25%; */
+    border-radius: 30px;
+    color:#003459 ;
+    border: 1px solid #003459 ;
+}
+
+.product-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+     
+}
+.product{
+    margin-top: 50px;
+width: 20%;
+box-shadow: 0px 20px 50px rgb(216, 215, 215);
+border-radius: 15px;
+}
+.freegift{
+    border: none;
+    background: none;
+    background-color: #fceed5;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.product-text{
+    padding: 7px;
+    width: 100%;
+}
+.thik{
+font-weight: 500;
+}
+.textblue {
+    color: #003459;
+}
+
